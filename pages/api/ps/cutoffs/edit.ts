@@ -1,7 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { supabase } from '../../supabase'
-import { getServerSession } from 'next-auth/next'
-import { authOptions } from '../../auth/[...nextauth]'
 import { PS1_RESPONSES, PS2_RESPONSES } from '../../constants'
 import { validateAPISession } from '@/pages/api/auth/session'
 

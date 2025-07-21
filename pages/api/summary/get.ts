@@ -1,7 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { supabase } from '../supabase'
-import { getServerSession } from 'next-auth/next'
-import { authOptions } from '../auth/[...nextauth]'
 import {
     COURSE_GRADING,
     COURSE_RESOURCES,
